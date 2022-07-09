@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-input-placeholder {
+  color: #c0c4cc;
+}
+
+li {
+  margin: 0;
+  list-style: none;
+}
+
+input,
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+  background: #fff;
+}
+
+body {
+  font-weight: 400;
+  font-size: 14px;
+  background: #fff;
+  color: #303133;
+}
+
+a {
+  color: rgb(87, 107, 147);
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "iconfont"; /* project id 2295299 */
+  src: url("//at.alicdn.com/t/font_2295299_j89jox4v6p.eot");
+  src: url("//at.alicdn.com/t/font_2295299_j89jox4v6p.eot?#iefix")
+      format("embedded-opentype"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.woff2") format("woff2"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.woff") format("woff"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.ttf") format("truetype"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.svg#iconfont") format("svg");
+}
+i {
+  font-family: "iconfont";
+  font-size: 14px;
+  font-style: normal;
+}
+.page-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}
+.red_envelopes-dialog {
+  background: transparent !important;
+  .red_envelopes {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50%;
+
+    > div {
+      position: relative;
+    }
+
+    .bg {
+      width: 100%;
+      vertical-align: middle;
+    }
+
+    .text {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      width: 80%;
+      margin-left: -40%;
+      color: rgb(255, 225, 177);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .openBtn {
+      position: absolute;
+      bottom: 16%;
+      left: 50%;
+      width: 30%;
+      margin-left: -15%;
+      transition: transform 2s;
+    }
+
+    .openBtn.opening {
+      transform: rotateY(360deg);
+    }
+
+    .opened {
+      .text {
+        color: #ff1424;
+        margin-top: 16px;
+      }
+
+      .money {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 80%;
+        margin-left: -40%;
+        font-size: 28px;
+        text-align: center;
+        color: transparent;
+        background-image: linear-gradient(180deg, #ffce3a, #ff6e26);
+        -webkit-background-clip: text;
+
+        span {
+          font-size: 16px;
+          margin-right: 10px;
+        }
+      }
+
+      .tips {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        width: 80%;
+        margin-left: -40%;
+        font-size: 12px;
+        text-align: center;
+        color: rgba($color: #fff, $alpha: 0.5);
+      }
+    }
+
+    .close {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      font-size: 30px;
+      text-align: center;
+      color: #f5c70f;
+    }
+  }
+}
+
+//vant重写
+.van-button {
+  border-radius: 4px !important;
+}
+.van-button--round {
+  border-radius: 999px !important;
+}
+.van-field__button {
+  display: flex;
+}
+.van-empty__description {
+  padding: 0 !important;
+  width: 100%;
+  text-align: center;
+}
+
+.loading-wrap {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}

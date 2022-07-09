@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "iconfont"; /* project id 2295299 */
+  src: url("//at.alicdn.com/t/font_2295299_j89jox4v6p.eot");
+  src: url("//at.alicdn.com/t/font_2295299_j89jox4v6p.eot?#iefix")
+      format("embedded-opentype"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.woff2") format("woff2"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.woff") format("woff"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.ttf") format("truetype"),
+    url("//at.alicdn.com/t/font_2295299_j89jox4v6p.svg#iconfont") format("svg");
+}
+i {
+  font-family: "iconfont";
+  font-size: 28upx;
+  font-style: normal;
+}
+
+body {
+    font-weight: 400;
+    font-size: 28upx;
+    background: #fff;
+    color: #303133;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.save-tips {
+	padding: 0 40upx;
+	height: 60upx;
+	line-height: 60upx;
+	background: #f2f6fc;
+	text-align: right;
+	display: flex;
+	justify-content: space-between;
+	color: #606266;
+}
+.search {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 20upx 24upx;
+	background: rgb(79, 192, 141);
+}
+
+.u-action{
+	color: #FFFFFF !important;
+}
+
+.ad{
+    height: 120upx;
+    display: flex;
+    padding: 20upx 40upx;
+    margin: 40upx 40upx;
+    margin-bottom: 20upx;
+    border-radius: 16upx;
+    align-items: center;
+    background-image: linear-gradient(0deg,#f3e7e9 0,#e3eeff 99%,#e3eeff);
+}
+
+.ad .icon{
+    height: 80%;
+}
+
+.ad .info {
+    flex: 1;
+    margin: 0 30upx;
+}
+
+.ad .info .time {
+    font-size: 24upx;
+    color: #999;
+    margin-top: 8upx;
+}
+
+.qItem{
+    margin: 0 40upx;
+    margin-top: 40upx;
+    display: flex;
+    position: relative;
+    padding-bottom: 20upx;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 92upx;
+    height: 92upx;
+    overflow: hidden;
+    border-radius: 6upx;
+    margin-right: 36upx;
+}
+
+.avatar image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.profile{
+	flex: 1;
+	overflow: auto;
+}
+
+
+.profile i{
+    margin-right: 14upx;
+    padding-right: 12upx;
+    border-right: 2upx solid #eaeaea;
+}
+
+.nickname{
+	height: 38upx;
+	padding-top: 12upx;
+}
+
+.nickname text{
+	float: left;
+	width: 80%;
+    display: inline-block;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.summary {
+    font-size: 24upx;
+    color: #9a9a9a;
+    display: flex;
+    align-items: flex-end;
+	margin-top: 12upx;
+}
+
+
+.summaryNum {
+	margin-top: 8upx;
+    margin-right: 12upx;
+    padding-right: 12upx;
+    position: relative;
+}
+
+
+.summaryNum i{
+	float: left;
+	margin-right: 6upx;
+}
+
+.summaryNum text{
+	margin-left: 10upx;
+	height: 36upx;
+	line-height: 36upx;
+}
+
+.summaryNum i text{
+	font-size: 24upx;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+	margin-left: 6upx;
+}
+
+.btn{
+	display: flex;
+	align-items: center;
+}
+
+.u-size-medium{
+	height: 64rpx !important;
+	line-height: 64rpx !important;
+	padding: 0 16rpx !important;
+	font-size: 24rpx !important;
+}
+
+.u-tabbar__content__circle__border{
+	opacity: 0;
+	display: none;
+}
+
+.region {
+    color: #7f7f7f;
+    font-size: 28upx;
+    margin-top: 12upx;
+}
+
+
+.sexIcon{
+	    margin: 0 !important;
+	    padding: 0 !important;
+	    border: 0 !important;
+}
+
+.woman {
+    color: #ee7357;
+}
+
+.man {
+    color: #589bee;
+}
+
+.userCardNickname{
+	width:auto !important;
+}

@@ -1,0 +1,383 @@
+{
+    "easycom" : {
+        "^u-(.*)" : "@/uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "营销中心",
+                "navigationBarBackgroundColor" : "#2979ff",
+                "navigationBarTextStyle" : "white"
+            }
+        },
+        {
+            "path" : "components/linkOthers/linkOthers",
+            "style" : {
+                "navigationBarTitleText" : "跳转中"
+            }
+        },
+        {
+            "path" : "pages/tool/index",
+            "style" : {
+                "navigationBarTitleText" : "工具",
+                "navigationBarBackgroundColor" : "#5098ff",
+                "navigationBarTextStyle" : "white",
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/release/index",
+            "style" : {
+                "navigationBarTitleText" : "广场"
+            }
+        },
+        {
+            "path" : "pages/release/reply",
+            "style" : {
+                "navigationBarTitleText" : "评论详情"
+            }
+        },
+        {
+            "path" : "pages/user/index",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "navigationBarBackgroundColor" : "#2979ff",
+                "navigationBarTextStyle" : "white"
+            }
+        },
+        {
+            "path" : "pages/user/login",
+            "style" : {
+                "navigationBarTitleText" : "登录",
+                "enablePullDownRefresh" : false
+                 
+            }
+        },
+        {
+            "path" : "pages/rm/Pay",
+            "style" : {
+                "navigationBarTitleText" : "收银台",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/quncard/Index",
+            "style" : {
+                "navigationBarTitleText" : "人脉",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/quncard/Mgr",
+            "style" : {
+                "navigationBarTitleText" : "我的微信群",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/rm/quncard/Add",
+            "style" : {
+                "navigationBarTitleText" : "发布群",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/rm/card/Index",
+            "style" : {
+                "navigationBarTitleText" : "人脉",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/card/Mgr",
+            "style" : {
+                "navigationBarTitleText" : "我的个人名片",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/card/Add",
+            "style" : {
+                "navigationBarTitleText" : "发布个人名片",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/me/Index",
+            "style" : {
+                "navigationBarTitleText" : "人脉",
+                "navigationBarBackgroundColor" : "#4fc08d",
+                "navigationBarTextStyle" : "white",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/agent/Index",
+            "style" : {
+                "navigationBarTitleText" : "代理后台",
+                "navigationBarBackgroundColor" : "#18191c",
+                "navigationBarTextStyle" : "white",
+                "app-plus" : {
+                    "animationType" : "zoom-fade-in",
+                    "animationDuration" : 300
+                }
+            }
+        },
+        {
+            "path" : "pages/rm/me/Gold",
+            "style" : {
+                "navigationBarTitleText" : "我的积分"
+            }
+        },
+        {
+            "path" : "pages/rm/me/NewGold",
+            "style" : {
+                "navigationBarTitleText" : "福利中心",
+				"navigationBarBackgroundColor" : "#2f6dfd",
+                "navigationBarTextStyle" : "white"
+            }
+        },
+        {
+            "path" : "pages/rm/me/Poster",
+            "style" : {
+                "navigationBarTitleText" : "邀请好友"
+            }
+        },
+        {
+            "path" : "pages/rm/me/Friend",
+            "style" : {
+                "navigationBarTitleText" : "我的好友"
+            }
+        },
+        {
+            "path" : "pages/rm/finance/Cashout",
+            "style" : {
+                "navigationBarTitleText" : "佣金提现"
+            }
+        },
+        {
+            "path" : "pages/rm/finance/CashoutNoteList",
+            "style" : {
+                "navigationBarTitleText" : "提现记录"
+            }
+        },
+        {
+            "path" : "pages/rm/ad/Mgr",
+            "style" : {
+                "navigationBarTitleText" : "广告管理"
+            }
+        },
+        {
+            "path" : "pages/rm/ad/Add",
+            "style" : {
+                "navigationBarTitleText" : "发布广告"
+            }
+        },
+        {
+            "path" : "components/uni-luck-draw/demo",
+            "style" : {}
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "admin",
+            "pages" : [
+                {
+                    "path" : "site/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "系统设置"
+                    }
+                },
+                {
+                    "path" : "user/Txlist",
+                    "style" : {
+                        "navigationBarTitleText" : "提现列表"
+                    }
+                },
+                {
+                    "path" : "user/Userlist",
+                    "style" : {
+                        "navigationBarTitleText" : "用户列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "order/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "订单列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "qun/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "群列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "card/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "个人名片",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "jhm/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "激活码",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "jhm/List",
+                    "style" : {
+                        "navigationBarTitleText" : "激活码列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "ad/Mgr",
+                    "style" : {
+                        "navigationBarTitleText" : "广告列表",
+                        "navigationBarBackgroundColor" : "#4fc08d",
+                        "navigationBarTextStyle" : "white",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "data/Index",
+                    "style" : {
+                        "navigationBarTitleText" : "数据中心",
+                        "navigationStyle" : "custom" // 隐藏系统导航栏
+                    }
+                }
+            ]
+        },
+		{
+			"root" : "im",
+			"pages" : [
+			    {
+			        "path" : "pageUserList",
+			        "style" : {
+			            "navigationBarTitleText" : "会话列表",
+			            "navigationBarBackgroundColor" : "#4fc08d",
+			            "navigationBarTextStyle" : "white",
+			            "enablePullDownRefresh" : true
+			        }
+			    },
+			    {
+			        "path" : "pageUserMsg",
+			        "style" : {
+			            "navigationBarTitleText" : "",
+			            "navigationBarBackgroundColor" : "#4fc08d",
+			            "navigationBarTextStyle" : "white",
+						"app-plus":{
+							"softinputNavBar":"none",
+							"bounce":"none"
+						}
+			        }
+			    },
+				{
+				    "path" : "HM-details/HM-details",
+				    "style" : {
+						"navigationBarBackgroundColor":"#cf3c35",
+						"navigationBarTextStyle":"white",
+						"navigationBarTitleText":"红包",
+						"backgroundColorTop":"#cf3c35",
+						"backgroundColorBottom":"#fff"
+					}
+				}
+				,
+				{
+				    "path" : "HM-hand/HM-hand",
+				    "style" : {
+				    	"navigationBarBackgroundColor":"#cf3c35",
+				    	"navigationBarTextStyle":"white",
+				    	"navigationBarTitleText":"发红包",
+				    	"backgroundColorTop":"#cf3c35",
+				    	"backgroundColorBottom":"#fff",
+						"app-plus":{
+							"softinputNavBar":"none",
+							"bounce":"none"
+						}
+				    }
+				}
+			]
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uView",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#909399",
+        "selectedColor" : "#303133",
+        "backgroundColor" : "#FFFFFF",
+        "borderStyle" : "black",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "营销",
+                "iconPath" : "static/index.png",
+                "selectedIconPath" : "static/index-selected.png"
+            },
+            {
+                "pagePath" : "pages/tool/index",
+                "text" : "工具",
+                "iconPath" : "static/min_button.png",
+                "selectedIconPath" : "static/min_button.png"
+            },
+            {
+                "pagePath" : "pages/user/index",
+                "text" : "我的",
+                "iconPath" : "static/center.png",
+                "selectedIconPath" : "static/center-selected.png"
+            }
+        ]
+    }
+}

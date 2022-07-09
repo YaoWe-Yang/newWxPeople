@@ -1,0 +1,7 @@
+/.idea
+/.hbuilderx
+/vendor
+/unpackage
+*.log
+*.zip
+.env

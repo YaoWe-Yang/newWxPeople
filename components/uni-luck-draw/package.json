@@ -1,0 +1,53 @@
+{
+  "_from": "uni-luck-draw",
+  "_id": "uni-luck-draw@1.4.3",
+  "_inBundle": false,
+  "_integrity": "sha512-gkOAjOlZCFQg5gKO/QJpN1QbvHOLUDbApDfoe4LMO8pmnmc/H9FZKs67l8vTnYeAmo8yaBTpnqQvsIl/KsFf+Q==",
+  "_location": "/uni-luck-draw",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "uni-luck-draw",
+    "name": "uni-luck-draw",
+    "escapedName": "uni-luck-draw",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/uni-luck-draw/-/uni-luck-draw-1.4.3.tgz",
+  "_shasum": "082c2cd3e47b75e1fdf5dae8f2b79b5ae5a2be07",
+  "_spec": "uni-luck-draw",
+  "_where": "F:\\components",
+  "author": {
+    "name": "ldq",
+    "email": "ldq404@qq.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lucky-canvas": "^1.5.3"
+  },
+  "deprecated": false,
+  "description": "uni-app【大转盘 / 九宫格】抽奖插件",
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "utils.js",
+    "demo.vue",
+    "lucky-wheel.vue",
+    "lucky-grid.vue"
+  ],
+  "keywords": [],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "uni-luck-draw",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.4.3"
+}
